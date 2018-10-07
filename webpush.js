@@ -11,7 +11,7 @@ webPush.setVapidDetails(
 )
 
 const sendWebPush = (subscription) => {
-    webPush.sendNotification(subscription, {})
+    webPush.sendNotification(subscription, 'hello')
 }
 
 module.exports = sendWebPush
